@@ -1,0 +1,9 @@
+MoolahCoin.balanceOf(deployerAddress)
+MoolahCoin.balanceOf('0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266')
+MoolahCoin.balanceOf(0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266)
+MoolahCoin.balanceOf(deployerAddress)
+const moolahcoin = await MoolahCoin.attach('0x5FbDB2315678afecb367f032d93F642f64180aa3')
+const MoolahCoin = await ethers.getContractFactory('MoolahCoin');
+.help
+hardhat --help
+MoolahCoin.balanceOf(deployerAddress)
